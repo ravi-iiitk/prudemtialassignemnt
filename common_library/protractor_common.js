@@ -3,6 +3,10 @@ var assert = require('assert');
 var protractor = require('protractor');
 var browser = protractor.browser;
 var fs = require('fs');
+var chai = require('chai');
+var chaiAsPromised = require('chai-as-promised');
+var expect = chai.expect;
+
 
 exports.protractor_common= {
 
@@ -10,15 +14,15 @@ exports.protractor_common= {
         var exp_cond = protractor.ExpectedConditions;
         browser.wait(exp_cond.visibilityOf(element),time_out);
         browser.wait(exp_cond.elementToBeClickable(element),time_out);
-        element.click();
+        return element.click();
     },
 
     check_enter_text :function (element,text, time_out ) {
-        var exp_cond = protractor.ExpectedConditions;
+        var exp_cond = browser.ExpectedConditions;
         browser.wait(exp_cond.presenceOf(element),time_out);
         browser.wait(exp_cond.visibilityOf(element),time_out);
         element.clear();
-        element.sendKeys(text);
+        return element.sendKeys(text);
     },
 
     check_element_visible : function(element,time_out)
@@ -26,13 +30,17 @@ exports.protractor_common= {
         var exp_cond = browser.ExpectedConditions;
         browser.wait(exp_cond.visibilityOf(element),time_out);
         browser.wait(exp_cond.elementToBeClickable(element),time_out);
-        assert(element.isDisplayed());
+        return assert(element.isDisplayed());
     },
 
     takeTheScreenshot: function (screenshot_name) {
         browser.driver.takeScreenshot().then(function (png) {
            writeScreenShot(png,screenshot_name);
         });
+    },
+
+    close_browser : function () {
+        return browser.driver.quit();
     }
 };
 

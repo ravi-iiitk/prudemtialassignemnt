@@ -24,8 +24,9 @@
               "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
             },
             "result": {
-              "status": "passed",
-              "duration": 8000000
+              "status": "failed",
+              "duration": 5046000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout._time.default.setTimeout [as _onTimeout] (C:\\Users\\Ravi Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\user_code_runner.js:81:20)\n    at ontimeout (timers.js:436:11)\n    at tryOnTimeout (timers.js:300:5)\n    at listOnTimeout (timers.js:263:5)\n    at Timer.processTimers (timers.js:223:10)"
             }
           },
           {
@@ -37,8 +38,7 @@
               "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "skipped"
             }
           },
           {
@@ -50,8 +50,7 @@
               "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
             },
             "result": {
-              "status": "passed",
-              "duration": 18000000
+              "status": "skipped"
             }
           },
           {
@@ -62,7 +61,173 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29000000
+              "duration": 21000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-&-verification-of-the-home-page-for-integrity-&-correctness;verification-of-search-functionlaity",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verification of search functionlaity",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I open the Weather Map web application in browser",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5015000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout._time.default.setTimeout [as _onTimeout] (C:\\Users\\Ravi Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\user_code_runner.js:81:20)\n    at ontimeout (timers.js:436:11)\n    at tryOnTimeout (timers.js:300:5)\n    at listOnTimeout (timers.js:263:5)\n    at Timer.processTimers (timers.js:223:10)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I am on home page",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter the New Delhi for which weather has to be checked",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on the search button",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I must the list of New Delhi with search cities in it.",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-&-verification-of-the-home-page-for-integrity-&-correctness;verification-of-search-functionlaity",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verification of search functionlaity",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I open the Weather Map web application in browser",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5004000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout._time.default.setTimeout [as _onTimeout] (C:\\Users\\Ravi Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\user_code_runner.js:81:20)\n    at ontimeout (timers.js:436:11)\n    at tryOnTimeout (timers.js:300:5)\n    at listOnTimeout (timers.js:263:5)\n    at Timer.processTimers (timers.js:223:10)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I am on home page",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter the Kolkata for which weather has to be checked",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on the search button",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I must the list of Kolkata with search cities in it.",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
             }
           }
         ]
