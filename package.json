@@ -1,0 +1,38 @@
+{
+  "name": "prudential",
+  "version": "1.0.0",
+  "description": "assignment for prudential",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravi-iiitk/prudemtialassignemnt.git"
+  },
+  "keywords": [
+    "automation"
+  ],
+  "author": "Ravi Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravi-iiitk/prudemtialassignemnt/issues"
+  },
+  "homepage": "https://github.com/ravi-iiitk/prudemtialassignemnt#readme",
+  "dependencies": {
+    "protractor": "latest",
+    "cucumber": "latest",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mkdirp": "^0.5.1",
+    "fs-extra": "latest",
+    "moment": "latest"
+  },
+  "devDependencies": {
+    "cucumber-html-report": "^0.6.5",
+    "cucumber-html-reporter": "^4.0.5",
+    "protractor-cucumber-framework": "^6.1.1",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.0",
+    "protractor-take-screenshots-on-demand": "^1.2.0"
+  }
+}
