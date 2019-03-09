@@ -29,20 +29,24 @@ exports.homepage = {
     },
 
     click_searchcity : function () {
-       commonlib.protractor_common.check_click(this.city_search_link,15);
+        commonlib.protractor_common.check_click(this.city_search_link,15);
     },
 
     entercity_mainsearch: function(city_name){
-       return commonlib.protractor_common.check_enter_text(this.mainsearch_field, city_name,30);
+        commonlib.protractor_common.check_enter_text(this.mainsearch_field, city_name,30);
+        browser.sleep(1000);
+        commonlib.protractor_common.takeTheScreenshot("City Name Entered");
     },
 
     click_searchbutton : function()
     {
-        browser.sleep(5000);
-        return commonlib.protractor_common.check_click(this.search_button,30);
+        commonlib.protractor_common.check_click(this.search_button,30);
+        browser.sleep(1000);
+        commonlib.protractor_common.takeTheScreenshot("Search Button Clicked");
     },
 
     verify_cityfound_searchresults: function(search_cityname) {
+        browser.sleep(5000);
         var searchresult_table = browser.element(by.xpath("//table[@class='table']"));
         var allLInkinTable = searchresult_table.all(by.tagName("a"));
         var found;
@@ -67,6 +71,7 @@ exports.homepage = {
         });
     },
     verifyIfElementsPresentHeader : function () {
+        browser.sleep(1000);
         commonlib.protractor_common.takeTheScreenshot("Home_Page");
         commonlib.protractor_common.check_element_visible(this.support_center_link ,20);
         commonlib.protractor_common.check_element_visible(this.city_search_link ,20);
@@ -74,24 +79,23 @@ exports.homepage = {
         commonlib.protractor_common.check_element_visible(this.sign_in_link ,20);
         commonlib.protractor_common.check_element_visible(this.celcious ,20);
         commonlib.protractor_common.check_element_visible(this.celcious ,20);
-        return commonlib.protractor_common.check_element_visible(this.ferhentie ,20);
+        commonlib.protractor_common.check_element_visible(this.ferhentie ,20);
     },
 
     goToURL : function () {
         protractor.browser.ignoreSynchronization = true;
         browser.driver.get(url).then(function () {
-            browser.driver.sleep(3000).then(function () {
-                browser.waitForAngular().then(function () {
+            browser.driver.sleep(1000).then(function () {
                     console.log("Web Page Opened");
-                });
             });
         });
-        this.currentLoc_button.click();
-        return browser.driver.manage().window().maximize();
+        browser.driver.manage().window().maximize().then(function () {
+            console.log("Window Maximized");
+        });
     },
 
     endTest : function () {
-        return commonlib.protractor_common.close_browser();
+        commonlib.protractor_common.close_browser();
     }
 
 };

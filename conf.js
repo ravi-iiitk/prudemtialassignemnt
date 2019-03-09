@@ -7,7 +7,7 @@ exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub', // This is targetting your local running instance of the selenium webdriver
 
     specs: [
-        'test_scenarios/feature_files/homepage.feature'
+        'test_scenarios/feature_files/*.feature'
 
     ],
 
@@ -38,7 +38,7 @@ exports.config = {
     cucumberOpts: {
         format: 'json:'+jsonReportFile,
         strict: true,
-        require: 'test_scenarios/step_definitions/homepage_stepdef.js',
+        require: 'test_scenarios/step_definitions/*.js',
         tags: false,
         profile: false,
         'no-source': true,

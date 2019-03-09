@@ -3,10 +3,6 @@ var assert = require('assert');
 var protractor = require('protractor');
 var browser = protractor.browser;
 var fs = require('fs');
-var chai = require('chai');
-var chaiAsPromised = require('chai-as-promised');
-var expect = chai.expect;
-
 
 exports.protractor_common= {
 
@@ -14,7 +10,9 @@ exports.protractor_common= {
         var exp_cond = protractor.ExpectedConditions;
         browser.wait(exp_cond.visibilityOf(element),time_out);
         browser.wait(exp_cond.elementToBeClickable(element),time_out);
-        return element.click();
+        element.click().then(function () {
+            console.log("Web Element Clicked");
+        });
     },
 
     check_enter_text :function (element,text, time_out ) {
@@ -22,7 +20,9 @@ exports.protractor_common= {
         browser.wait(exp_cond.presenceOf(element),time_out);
         browser.wait(exp_cond.visibilityOf(element),time_out);
         element.clear();
-        return element.sendKeys(text);
+        element.sendKeys(text).then(function () {
+            console.log("Text Entered");
+        })
     },
 
     check_element_visible : function(element,time_out)
@@ -30,7 +30,7 @@ exports.protractor_common= {
         var exp_cond = browser.ExpectedConditions;
         browser.wait(exp_cond.visibilityOf(element),time_out);
         browser.wait(exp_cond.elementToBeClickable(element),time_out);
-        return assert(element.isDisplayed());
+        assert(element.isDisplayed());
     },
 
     takeTheScreenshot: function (screenshot_name) {
@@ -40,7 +40,9 @@ exports.protractor_common= {
     },
 
     close_browser : function () {
-        return browser.driver.quit();
+        browser.driver.quit().then(function () {
+            console.log("Browser Closed");
+        });
     }
 };
 
