@@ -1,7 +1,9 @@
 var {Given} = require('cucumber');
 var {When} = require('cucumber');
 var {Then} = require('cucumber');
+var {Before} = require('cucumber');
 var home_page =  require('../../page_objects/home_page.js');
+
 
 var {setDefaultTimeout} = require('cucumber');
 setDefaultTimeout(60 * 10000);
