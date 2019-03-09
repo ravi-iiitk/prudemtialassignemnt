@@ -20,3 +20,10 @@
 2. Open commond prompt- Go to the project folder. 
 3. Use Package.json to install all dependencies 
 4. fire command : protractor conf.js to start running the test. 
+
+
+#HOW TO VIEW REPORTS
+1. Open file explorer
+2. Go to the project folder.
+3  Navigate to -->> test_reports --> html_reports --> report --> index.html
+4. Open index.html in Browser. 
