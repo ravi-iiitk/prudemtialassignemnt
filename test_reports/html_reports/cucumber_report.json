@@ -1,0 +1,436 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validation & Verification of the Home Page for integrity & Correctness",
+    "line": 1,
+    "id": "validation-&-verification-of-the-home-page-for-integrity-&-correctness",
+    "tags": [],
+    "uri": "test_scenarios\\feature_files\\homepage.feature",
+    "elements": [
+      {
+        "id": "validation-&-verification-of-the-home-page-for-integrity-&-correctness;verification-of-the-header-part-of-the-home-page.",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verification of the header part of the home page.",
+        "tags": [
+          {
+            "name": "@homepage",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open the Weather Map web application in browser",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15449000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 922000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I must see all the required elements in the header section.",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8530000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I must the heading of the body",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3635000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Also I must see all the navigation link on the header",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11350000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-&-verification-of-the-home-page-for-integrity-&-correctness;to-verify-the-temperature-degree-scale-changed-then-all-places-degree-scale-change",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "To verify the temperature degree scale changed then all places degree scale change",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I am on home page",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 937000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click on the Ferhenhite icon on right top corner of home page",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9074000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I must see the temperature coming on screen is in ferhenhite",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 246000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-&-verification-of-the-home-page-for-integrity-&-correctness;verification-of-search-functionlaity-for-valid-city",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Verification of search functionlaity for valid city",
+        "tags": [
+          {
+            "name": "@searchcityvalid",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I am on home page",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I enter the New Delhi for which weather has to be checked",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3626000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Click on the search button",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6606000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I must the list of New Delhi with search cities in it.",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I go back to home page",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4094000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-&-verification-of-the-home-page-for-integrity-&-correctness;verification-of-search-functionlaity-for-valid-city",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Verification of search functionlaity for valid city",
+        "tags": [
+          {
+            "name": "@searchcityvalid",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I am on home page",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3587000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I enter the Kolkata for which weather has to be checked",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Click on the search button",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5626000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I must the list of Kolkata with search cities in it.",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3780000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I go back to home page",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4664000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-&-verification-of-the-home-page-for-integrity-&-correctness;verification-of-search-functionlaity-for-invalid-city",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Verification of search functionlaity for invalid city",
+        "tags": [
+          {
+            "name": "@searchcityinvalid",
+            "line": 29
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I am on home page",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I enter the invalid fdfadsfad for which weather has to be checked",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6240000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "Click on the search button",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I must see that I get No found message",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I go back to home page",
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7495000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "Kumar\\WebstormProjects\\PrudentialAssigment\\node_modules\\cucumber\\lib\\support_code_library_builder\\build_helpers.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

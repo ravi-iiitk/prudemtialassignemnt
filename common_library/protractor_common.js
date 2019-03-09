@@ -41,7 +41,7 @@ exports.protractor_common= {
 
     close_browser : function () {
         browser.driver.quit().then(function () {
-            console.log("Browser Closed");
+            console.log("Browser Closed compltetely");
         });
     }
 };
