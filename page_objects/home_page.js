@@ -170,6 +170,7 @@ exports.homepage = {
     },
 
     goBackToHome : function(){
+       commonlib.protractor_common.takeTheScreenshot("Home_Page");
        commonlib.protractor_common.check_click(this.webapp_log,20);
     },
 
@@ -194,6 +195,7 @@ exports.homepage = {
     verifyNoRecordAlertAppears : function () {
         browser.sleep(3000);
         commonlib.protractor_common.check_element_visible(this.noresult_alert);
+        commonlib.protractor_common.takeTheScreenshot("No_CITY_Records");
     },
 
     verifyTemeratureShowingFerhenhite : function () {
@@ -206,6 +208,7 @@ exports.homepage = {
     clicktheFerheniteIcon : function () {
         commonlib.protractor_common.check_click(this.celcious,20);
         browser.sleep(5000);
+        commonlib.protractor_common.takeTheScreenshot("Temperature_Scale_Changed");
     }
 
 
