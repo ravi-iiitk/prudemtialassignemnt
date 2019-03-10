@@ -3,9 +3,8 @@ var browser = protractor.browser;
 var element = require('protractor');
 var assert = require('assert');
 var commonlib =  require("../common_library/protractor_common.js");
-var screenshots = require('protractor-take-screenshots-on-demand');
 const url = "https://openweathermap.org/#";
-var sel = require('selenium_conf.js');
+
 exports.homepage = {
     support_center_link : browser.element(by.xpath("//span[@class='hidden-xs']")),
 

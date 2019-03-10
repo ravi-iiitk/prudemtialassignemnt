@@ -1,7 +1,6 @@
 
 var jsonReportFile = 'test_reports/html_reports/cucumber_report.json';
 var reporter = require('cucumber-html-reporter');
-var sel = require('selenium_conf');
 
 exports.config = {
 
@@ -76,6 +75,8 @@ exports.config = {
                 }
             }
         },
+
+
 
     ],
 
