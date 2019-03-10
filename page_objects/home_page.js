@@ -173,22 +173,8 @@ exports.homepage = {
        commonlib.protractor_common.check_click(this.webapp_log,20);
     },
 
-    restartTheBrowser : function(){
-        browser.restart().then(function () {
-            console.log("Browser is restarted");
-        });
-    },
-
     verifyIamOnHomePaee : function(){
         commonlib.protractor_common.check_element_visible(this.mainsearch_field);
-    },
-
-    quitTheBrowser : function () {
-       browser.quit();
-    },
-
-    closeTheBrwoserInstance : function () {
-      browser.close();
     },
 
     verifyNoRecordAlertAppears : function () {

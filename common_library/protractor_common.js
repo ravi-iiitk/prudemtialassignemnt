@@ -39,6 +39,21 @@ exports.protractor_common= {
         });
     },
 
+
+    quitTheBrowser : function () {
+        browser.quit();
+    },
+
+    closeTheBrwoserInstance : function () {
+        browser.close();
+    },
+
+    restartTheBrowser : function(){
+        browser.restart().then(function () {
+            console.log("Browser is restarted");
+        });
+    },
+
     close_browser : function () {
         browser.driver.quit().then(function () {
             console.log("Browser Closed compltetely");
